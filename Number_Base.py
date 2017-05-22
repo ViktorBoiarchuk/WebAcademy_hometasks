@@ -30,13 +30,10 @@ print(number_base("1A", 11))
 
 """
 def checkio(str_number, radix):
-
     try:
-
         return int(str_number, radix)
-
     except ValueError:
-
             return -1
+
 print(checkio("z", 36))
 """
